@@ -27,10 +27,10 @@
                 <a class="nav-link" href="Services.html">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="user_registration.html">User registration</a>
+                <a class="nav-link" href="user_registration.html">Register</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">User log-in</a>
+                <a class="nav-link" href="#">Log-in</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
@@ -42,6 +42,32 @@
           </div>
         </div>
       </nav>
-    
+
+   
+      <h1 style="text-align:center;">Client Registration</h1>
+      <p style="text-align:center;">Please make an account so you may access your profile.</p><br/><br/><br/>
+      
+        <div class="container text-center">
+      
+        <form action="user_registration.html" method="POST" enctype="application/x-www-form-urlencoded">
+        <label for="Name"><b>Your Name</b></label>
+        <input type="text" placeholder="Enter your name" name="customerName" required><br/><br/>
+        <label for="email"><b>Your Email</b></label>
+        <input type="email" placeholder="Enter your email" name="customerEmail" required><br/><br/>
+        <label for="phone"><b>Your Phone</b></label>
+        <input type="tel" placeholder="Enter your phone #" name="customerPhone" required><br/><br/>
+        <label for="username"><b>Username</b></label> 
+        <input type="text" placeholder="Enter a username" name="customerUsername" required><br/><br/>
+        <label for="password"><b>Password</b></label> 
+        <input type="password" placeholder="Enter a password" name="customerPassword" required><br/><br/>
+        <label for="password-repeat"><b>Repeat Password</b></label> 
+        <input type="password" placeholder="repeat password" name="password-repeat" required><br/><br/>
+
+        <button type="submit" class="registerbtn">Register</button>
+
+
+        </form>
+        
+    </div>
 </body>
 </html>
