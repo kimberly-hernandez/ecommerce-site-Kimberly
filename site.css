@@ -52,11 +52,12 @@ input[type=search]{
 
 #footer {
     position: fixed;
-    height: 50px;
+    height: 10px;
     bottom: 30px;
     left: 30px;
     right: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
+    width: 60%;
 }
 
 
