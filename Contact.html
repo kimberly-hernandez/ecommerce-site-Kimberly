@@ -11,7 +11,7 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Meltzer Media Productions</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,19 +20,19 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 m-lg-auto">
               <li class="nav-item mx-3">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
               </li>
-              <li class="nav-item mx-5">
+              <li class="nav-item mx-3">
                 <a class="nav-link" href="Services.html">Services</a>
               </li>
-              <li class="nav-item mx-5">
+              <li class="nav-item mx-3">
                 <a class="nav-link" href="user_registration.html">Register</a>
               </li>
-              <li class="nav-item mx-5">
+              <li class="nav-item mx-3">
                 <a class="nav-link" href="log_in.html">Log-in</a>
               </li>
-              <li class="nav-item mx-5">
-                <a class="nav-link" href="Contact.html">Contact</a>
+              <li class="nav-item mx-3">
+                <a class="nav-link active" href="Contact.html">Contact</a>
               </li>
               </ul>
             <form class="d-flex pull-right">
@@ -42,31 +42,37 @@
           </div>
         </div>
       </nav>
-
+<!--banner image-->
      
       <div
       style="
         background-image: url('images/contact-us-banner.jpg');
-        opacity: 0.7;
+        opacity: 0.4;
         text-align: center;
         font-size: 700%;
-        color: black;
-        height: 200px;">
+        color: whitesmoke;
+        height: 100px;">
        <h1> Contact Us </h1>
     </div>
-    <p style="text-align:center"></br>If you would like to contact us, please fill out the form below.</p><br/>
-    
+    <p style="text-align:center"></br>If you would like to contact us, please fill out the form below, we will response within 48 business hours.
+    </br> You may also contact us via 555-555-5555 or by email at name@mpp.com.</p><br/>
+
+    <!----inquiry form-->
     <div class="container text-center">
 
     <form action="user_registration.html" method="POST" enctype="application/x-www-form-urlencoded">
-        <label for="Name"><b>Your Name</b></label>
-        <input type="text" placeholder="Enter your name" name="customerName" required><br/><br/>
-        <label for="email"><b>Your Email</b></label>
-        <input type="email" placeholder="Enter your email" name="customerEmail" required><br/><br/>
-        <label for="phone"><b>Your Phone</b></label>
-        <input type="tel" placeholder="Enter your phone #" name="customerPhone" required><br/><br/>
+        <label for="Name"><b>Your Name</b></label></br>
+        <input id="name" type="text" placeholder="Enter your name" name="customerName" required><br/><br/>
+
+        <label for="email"><b>Your Email</b></label></br>
+        <input id="email" type="email" placeholder="Enter your email" name="customerEmail" required><br/><br/>
+
+        <label for="phone"><b>Your Phone</b></label></br>
+        <input id="tel" type="tel" placeholder="Enter your phone #" name="customerPhone" required><br/><br/>
+
         <label for="text"><b>Your inquiry</b></label>
-    </br> <textarea name="feedbackText" cols="40" rows="3" placeholder="Enter your feedback"></textarea></br>
+    </br> <textarea name="feedbackText" cols="40" rows="6" placeholder="Enter your feedback"></textarea></br>
+
 </br><button class="btn btn-outline-success" type="submit">Submit</button>
 </form>
 </div>
