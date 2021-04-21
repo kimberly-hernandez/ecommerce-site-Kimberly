@@ -45,3 +45,19 @@ body{
     color: whitesmoke;
     height: 110px;
 }
+
+input[type=search]{
+    width: 20%;
+}
+
+#footer {
+    position: fixed;
+    height: 50px;
+    bottom: 30px;
+    left: 30px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+
+
