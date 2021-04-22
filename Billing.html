@@ -45,89 +45,35 @@
           </nav>
 <!--banner-->
           <div id="banner">
-            <h1></br> Shopping Cart</h1>
+            <h1></br> Billing</h1>
                </div></br>
+
+ <!--payment info-->              
+
+ <div class="container text-center" style="width:30%">
+    <div class="row">
+      <div class="col-sm">
+
+  <form action="payment.html" method="POST" enctype="application/x-www-form-urlencoded" >
+   
+    <label for="Name">Card Holder's Name</label>
+    <input type="text" placeholder="Enter name" name="customercardName" required><br/><br/>
     
+    <label for="cardType">Card Type</label> 
+    <select name="cardType" id="cardType">
+        <option value="" selected="selected">Select card type</option>
+        <option value="Visa">Visa</option>
+        <option value="Mastercard">Mastercard</option>
+        <option value="AmericanExpress">American Express</option>
+        <option value="Discover">Discover</option>
+        </select>
 
-<!---shopping cart-->
-<table id="center">
-  <tr>
-    <th>Item</th>
-    <th>Price</th>
-    <th>Hours</th>
-    <th>Subtotal</th>
-    <th>Remove from cart?</th>
-  </tr>
-  <tr>
-    <td>Music Video Production</td>
-    <td>$300.00</td>
-    <td>4</td>
-    <td>$1200.00</td>
-    <td><img src="images/trashcan1.png" width="7%"></a></td>
-  </tr>
-  <tr>
-    <td></br></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Taxes @ 8%</td>
-    <td></td>
-    <td></td>
-    <td>$96.00</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></br></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></br></td>
-    <td></td>
-    <td><b>Total=</b></td>
-    <td><b>$1296.00</b></td>
-    <td></td>
-  </tr>
+        <label for="card#">Card #</label>
+        <input type="text" placeholder="Enter card #" name="card#" required><br/><br/>   
 
-  <tr>
-    <td></br></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-
-  <tr>
-    <td></br></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-
-
-  <td></br></td>
-  <td></td>
-  <td></td>
-  <td><a href="Billing.html" class="btn btn-outline-success">Proceed to Billing</a> </p></td>
-  <td></td>
-
-  </tr>
-</table>
-
+        
+      </form>
+      <a href="Billing.html" class="btn btn-outline-success">Proceed to Check-out</a> </p></td>
+    </div>
 </body>
-
- <!--footer-->
- <div class="footer" id="footer">
-</br>
-  <form class="d-flex pull-right">
-    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="search">
-    <button class="btn btn-outline-success" type="submit">Search</button>
-  </form>
-</div>
 </html>
