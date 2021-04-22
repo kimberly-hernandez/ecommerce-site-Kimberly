@@ -35,7 +35,7 @@
                 <a class="nav-link active" href="Contact.html">Contact</a>
               </li>
               <li class="nav-item mx-3">
-                <a class="nav-link" href="shoppingCart.html">Shopping Cart</a>
+                <a class="nav-link" href="shoppingCart.html"><img src="images/shopping cart.png" style= "width: 30px"></a>
               </ul>
             
           </div>
@@ -57,7 +57,9 @@
         <input id="name" type="text" placeholder="Enter your name" name="customerName" required><br/><br/>
 
         <label for="email"><b>Your Email</b></label></br>
-        <input id="email" type="email" placeholder="Enter your email" name="customerEmail" required><br/><br/>
+        <input id="email" type="email" placeholder="Enter your email"
+        input pattern="[^ @]*@[^ @]*" required
+        name="customerEmail" required><br/><br/>
 
         <label for="phone"><b>Your Phone</b></label></br>
         <input id="tel" type="tel" placeholder="Enter your phone #" name="customerPhone" required><br/><br/>

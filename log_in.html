@@ -35,7 +35,7 @@
                 <a class="nav-link" href="Contact.html">Contact</a>
               </li>
               <li class="nav-item mx-3">
-                <a class="nav-link" href="shoppingCart.html">Shopping Cart</a>
+                <a class="nav-link" href="shoppingCart.html"><img src="images/shopping cart.png" style= "width: 30px"></a>
               </ul>
             
           </div>
@@ -50,8 +50,11 @@
         Don't have an account? Please <a href="user_registration.html">click here</a> to register.</p></p>
       
         <div class="container text-center">
-            <label for="username"><b>Username</b></label> </br>
-            <input id="username" type="text" placeholder="Enter a username" name="customerUsername" required><br/><br/>
+          <label for="userEmail"><b>Email</b></label> </br>
+          <input id="email" type="email" 
+          input pattern="[^ @]*@[^ @]*" required
+          placeholder="name@domain.com" name="customerEmail" required>
+        </br>
             <label for="password"><b>Password</b></label> </br>
             <input id="password" type="password" placeholder="Enter a password" name="customerPassword" required><br/><br/>
           

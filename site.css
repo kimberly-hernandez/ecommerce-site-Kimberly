@@ -61,4 +61,26 @@ input[type=search]{
 }
 
 
+ 
+input:valid {
+    border: 2px solid black;
+}
+
+.required label:after {
+    color: #e32;
+    content: ' *';
+    display:inline;
+}
+
+table, th, td{
+    border: 1px solid white;
+    
+}
+
+#center { 
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+}
 
