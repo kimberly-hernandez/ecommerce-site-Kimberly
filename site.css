@@ -116,5 +116,6 @@ img:hover {
     .carousel-inner > .item >img{
         min-height : 300px;
         max-height : 300px;
+        max-width: 100px;
         width : 100%;
       }
