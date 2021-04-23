@@ -87,7 +87,7 @@ table, th, td{
 #search{
     width: 15%;
 }
-
+/*
 .carousel-caption{
     font-size: 90px;
     display:inline-block;
@@ -97,6 +97,7 @@ table, th, td{
     border-style: groove;
     border-radius: 10px;
 }
+*/
 
 img:hover {
     opacity: 0.5;
