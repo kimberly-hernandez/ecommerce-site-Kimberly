@@ -88,7 +88,7 @@ table, th, td{
     width: 15%;
 }
 
-.carousel-caption{
+#carousel-caption{
     font-size: 10px;
     display:inline-block;
     background:rgba(15, 14, 14, 0.4);
