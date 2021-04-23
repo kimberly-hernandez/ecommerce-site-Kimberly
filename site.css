@@ -91,12 +91,16 @@ table, th, td{
 .carousel-caption{
     font-size:100%;
     display:inline-block;
-    background:rgba(15, 14, 14, 0.4);
+    background:rgba(15, 14, 14, 0.6);
     color:#fff;
-    height: 10%;
+    height: max-content;
      border-style: groove;
     border-radius: 10px; 
     align-content: center;
+}
+
+.carousel-item img {
+    opacity: .8;
 }
 
 
