@@ -89,14 +89,13 @@ table, th, td{
 }
 
 .carousel-caption{
-    font-size: 10px;
+    font-size:100%;
     display:inline-block;
     background:rgba(15, 14, 14, 0.4);
     color:#fff;
-    height: 150px;
+    height: 10%;
      border-style: groove;
     border-radius: 10px; 
-    max-width: 50%;
     align-content: center;
 }
 
