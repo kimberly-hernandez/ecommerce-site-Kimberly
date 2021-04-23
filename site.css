@@ -107,13 +107,9 @@ img:hover {
       opacity: 0.85;
   }
 
-  @media (min-width: 768px) {
-    .d-md-block {
-       display: block!important;
+  @media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+       display: none
     }
-  }
-  
-  .d-none {
-       display: none!important;
-  }
   
