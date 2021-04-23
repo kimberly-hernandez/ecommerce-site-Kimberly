@@ -96,6 +96,8 @@ table, th, td{
     height: 150px;
      border-style: groove;
     border-radius: 10px; 
+    max-width: 50%;
+    align-content: center;
 }
 
 
@@ -118,4 +120,9 @@ img:hover {
         max-height : 300px;
         max-width: 100px;
         width : 100%;
+      }
+
+      .carousel-inner > .item {
+        max-width: 50%;
+        
       }
