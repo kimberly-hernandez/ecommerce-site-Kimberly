@@ -50,7 +50,7 @@
 <div id="banner">
        <h1></br> Contact Us </h1>
     </div>
-    <p style="text-align:center"></br>If you would like to contact us, please fill out the form below, we will response within 48 business hours.
+    <p style="text-align:center"></br>If you would like to contact us, please fill out the form below, we will respond within 48 business hours.
     </br> You may also contact us via <b>555-555-5555</b> or by email at <b>name@mpp.com.</b></p><br/>
 
     <!----inquiry form-->
@@ -71,7 +71,26 @@
         <label for="text"><b>Your inquiry</b></label>
     </br> <textarea name="feedbackText" style="width:50%" placeholder="Enter your feedback"></textarea></br>
 
-<button class="btn btn-outline-success" type="submit">Submit</button>
+
+ <!-- Button trigger modal -->
+ <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Submit
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Thank you!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       We will review your inquiry and respond within 48 hours.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">go back</button>
+        <a href="index.html" button type="button" class="btn btn-light">Continue</button>
 </form>
 </br>
 </div>
@@ -79,6 +98,12 @@
       </body>
 
       <!--footer-->
+      <div class="footer" id="footer">
+
+
+ 
+        <p style="float:right">&#169 Kimberly Hernandez 2021</p>
+        </div>
    
 
 </html>
